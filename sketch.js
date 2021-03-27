@@ -288,7 +288,7 @@ function draw() {
 
     if(keyDown("space") && trex.y >=height-105 || mousePressedOver(hitBox) && trex.y >=height-105) {
      jumpSound.play();
-      trex.velocityY = -12;
+      trex.velocityY = -13;
     }
 
     trex.velocityY = trex.velocityY + 0.8
